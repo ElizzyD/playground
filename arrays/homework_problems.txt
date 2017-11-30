@@ -1,0 +1,54 @@
+1) Reverse an array.
+
+Implement a function that takes an array and returns an array containing all the elements reversed.
+
+Example:
+  reverse([1, 2, 3, 4, 5]) = [5, 4, 3, 2, 1]
+
+
+2) Combine two arrays (this is called concatenation).
+
+Implement a function that takes two arrays and makes a new array containing elements from both arrays in order.
+
+Example:
+  concatenate([1, 2, 3], [4, 5, 6]) = [1, 2, 3, 4, 5, 6]
+
+
+3) Print a tic-tac-toe board
+
+Create a program that can print a two dimensional array as a tic-tac-toe board. The array can be hard-coded in the program.
+
+Example:
+  char[][] b = {{ 'x', 'o', 'x'}, { 'o', 'o', 'x' }, { 'o', '', 'x' }};
+
+  Would print:
+
+    x | o | x 
+   --- --- ---
+    o | o | x
+   --- --- ---
+    o |   | x 
+
+
+4) Extend the tic-tac-toe program above to also tell the user which letter won ('x' or 'o').
+
+  The example above would print the board and additionally say "X wins!"
+
+
+5) Now using the code from #3 and #4, implement a working tic-tac-toe game. The prompts will alternate between X and O and the user will
+   input a space number to place their letter.
+
+   Space numbers are:
+
+    0 | 1 | 2 
+   --- --- ---
+    3 | 4 | 5
+   --- --- ---
+    6 | 7 | 8 
+
+   The prompts will behave like so:
+
+   > X's turn. Enter the square to place your X: 
+
+   Then the user would enter a number between 0 and 8. If the square is already taken, then have them enter it again. Otherwise, update the board appropriately.
+
